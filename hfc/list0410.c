@@ -16,7 +16,7 @@ int main(void)
             puts("\aPlease do not enter a non-positive integer.");
     } while (no <= 0);
 
-    printf("The integer displayed in reverse is: ");
+    printf("The integer %d displayed in reverse is: ", no);
     while (no > 0) {
         printf("%d", no % 10);   /* display the last digit */
         no /= 10;                /* shift right by one digit */
