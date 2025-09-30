@@ -19,7 +19,7 @@ int main(void)
         break;
     case 3 :
     case 4 :
-    case 5 : printf("Month %d is in Spring.\n", month);
+    case 5 : printf("Month %d is in spring.\n", month);
         break;
     case 6 :
     case 7 :
